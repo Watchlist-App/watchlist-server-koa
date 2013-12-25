@@ -1,10 +1,23 @@
 {
   "name": "Watchlist-server-koa",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Watchlist-app experimental server implementation using nightly builds of node with ES6 features and Koa middleware",
-  "main": "app.js",
+  "author": "Dmitry Mazuro <dmitry.mazuro@icloud.com>",
+  "main": "./lib/app.js",
+  "dependencies": {
+    "koa": "~0.1.2",
+    "koa-logger": "~1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "mocha": "*",
+    "grunt-shell": "~0.6.1",
+    "grunt-concurrent": "~0.4.2"
+  },
   "scripts": {
-    "test": "cake test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -14,14 +27,9 @@
     "ES6",
     "koa"
   ],
-  "author": "Dmitry Mazuro",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/Watchlist-App/watchlist-server-koa/issues"
   },
-  "homepage": "https://github.com/Watchlist-App/watchlist-server-koa",
-  "dependencies": {
-    "koa": "~0.1.2",
-    "koa-logger": "~1.1.0"
-  }
+  "homepage": "https://github.com/Watchlist-App/watchlist-server-koa"
 }
