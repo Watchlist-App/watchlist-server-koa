@@ -1,0 +1,4 @@
+--timeout 60000
+--reporter nyan
+--ui bdd
+test/**/*.test.js
