@@ -1,0 +1,23 @@
+{
+  "name": "Watchlist-server-koa",
+  "version": "0.0.0",
+  "description": "Watchlist-app experimental server implementation using nightly builds of node with ES6 features and Koa middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Watchlist-App/watchlist-server-koa"
+  },
+  "keywords": [
+    "ES6",
+    "koa"
+  ],
+  "author": "Dmitry Mazuro",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Watchlist-App/watchlist-server-koa/issues"
+  },
+  "homepage": "https://github.com/Watchlist-App/watchlist-server-koa"
+}
