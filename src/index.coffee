@@ -17,4 +17,4 @@ app.get '/user/:id', (next) ->*
   user = yield User.findOne({_id: @params.id}).exec()
   @body = user
 
-app.listen proscess.env.PORT || 5000
+app.listen process.env.PORT || 5000
