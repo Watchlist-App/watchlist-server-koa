@@ -1,7 +1,7 @@
 koa = require 'koa'
 logger = require 'koa-logger'
 router = require 'koa-router'
-router = require 'koa-cors'
+cors = require 'koa-cors'
 User = require './User'
 
 app = koa()
