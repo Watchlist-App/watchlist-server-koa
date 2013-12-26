@@ -1,7 +1,6 @@
 koa = require 'koa'
 logger = require 'koa-logger'
 router = require 'koa-router'
-mongoose = require 'mongoose'
 User = require './User'
 
 app = koa()
