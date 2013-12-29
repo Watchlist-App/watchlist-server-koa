@@ -9,7 +9,8 @@
     "koa-logger": "~1.1.0",
     "koa-router": "~2.2.0",
     "mongoose": "~3.8.3",
-    "koa-cors": "0.0.1"
+    "koa-cors": "0.0.1",
+    "amazon-product-api": "0.0.1"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
