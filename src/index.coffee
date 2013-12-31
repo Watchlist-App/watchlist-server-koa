@@ -8,8 +8,8 @@ amazon = require './amazon'
 app = koa()
 
 app.use logger()
-app.use router app
 app.use cors()
+app.use router app
 
 app.get '/user', (next) ->*
   users = yield User.find({}).exec()
