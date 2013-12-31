@@ -2,6 +2,7 @@ Watchlist server
 ================
 [![Dependency Status](https://gemnasium.com/Watchlist-App/watchlist-server-koa.png)](https://gemnasium.com/Watchlist-App/watchlist-server-koa)
  [![Build Status](https://travis-ci.org/Watchlist-App/watchlist-server-koa.png?branch=master)](https://travis-ci.org/Watchlist-App/watchlist-server-koa)
+ [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Restful API built with next generation web framework [Koa](http://koajs.com).  
 Currently hosted on [heroku](http://watchlist-koa.herokuapp.com/#/).  
