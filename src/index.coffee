@@ -20,6 +20,7 @@ app.get '/amazon/:index', (next) ->*
     dvds = yield amazon.itemSearch
       keywords: @request.query.title
       searchIndex: @params.index
+      responseGroup: 'ItemAttributes,Offers,Images'
     @body = dvds
   catch error
     @body = error
