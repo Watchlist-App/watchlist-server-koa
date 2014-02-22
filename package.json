@@ -11,7 +11,9 @@
     "mongoose": "^3.8.7",
     "koa-cors": "^0.0.6",
     "amazon-product-api": "^0.0.5",
-    "koa-mongo-rest": "^0.0.4"
+    "koa-mongo-rest": "^0.0.4",
+    "co": "^3.0.4",
+    "cogent": "^0.3.14"
   },
   "devDependencies": {
     "grunt": "^0.4.2",
