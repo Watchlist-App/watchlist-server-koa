@@ -14,7 +14,7 @@
     "koa-mongo-rest": "^0.0.4"
   },
   "devDependencies": {
-    "grunt": "^0.4.3",
+    "grunt": "^0.4.2",
     "grunt-contrib-coffee": "git://github.com/t3chnoboy/grunt-contrib-coffee.git",
     "grunt-contrib-watch": "^0.5.3",
     "mocha": "*",
