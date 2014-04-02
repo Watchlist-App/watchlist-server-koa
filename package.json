@@ -5,15 +5,16 @@
   "author": "Dmitry Mazuro <dmitry.mazuro@icloud.com>",
   "main": "./lib/app.js",
   "dependencies": {
+    "amazon-product-api": "^0.0.5",
+    "co": "^3.0.4",
+    "cogent": "^0.3.14",
     "koa": "^0.5.0",
+    "koa-cors": "^0.0.6",
     "koa-logger": "^1.2.0",
+    "koa-mongo-rest": "^0.0.4",
     "koa-router": "^3.0.2",
     "mongoose": "^3.8.7",
-    "koa-cors": "^0.0.6",
-    "amazon-product-api": "^0.0.5",
-    "koa-mongo-rest": "^0.0.4",
-    "co": "^3.0.4",
-    "cogent": "^0.3.14"
+    "request": "^2.34.0"
   },
   "devDependencies": {
     "grunt": "^0.4.2",
